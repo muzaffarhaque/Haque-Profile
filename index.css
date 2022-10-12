@@ -862,15 +862,16 @@ body {
         display: none;
     }
     .nav ul {
-        float: none;
-        margin-top: 20%;
+     
+        margin-top: 7%;
         margin-right: 0;
     }
     .nav ul li {
         display: block;
+        float: none;
         margin: 10px;
         padding: 5px;
-        text-align: left;
+        text-align: center;
         padding: 1vw 30%;
 
     }
