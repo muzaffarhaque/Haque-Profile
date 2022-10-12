@@ -814,7 +814,7 @@ body {
     margin: 10px;
 
 }
-@media (max-width:700px) {
+@media (max-width:900px) {
     .hadder-strip-mob {
       
         padding: .5vh 30vw 0vh 0;
@@ -825,7 +825,7 @@ body {
         width: 100%;
         background-color: rgba(0, 0, 0, .8);
         position: fixed;
-        transform: translateX(00%);
+        transform: translateX(-100%);
         transition: all 0.9s;
         /* padding-top: 10px; */
     }
@@ -836,10 +836,10 @@ body {
         margin-top: 29vw;
 
     }
-    #so:checked~.header {
-        transform: translateX(100%);
+    /* #so:checked~.header {
+        transform: translateX(00%);
         transition: all 0.9s;
-    }
+    } */
     #icon {
         display: block;
 
@@ -863,7 +863,7 @@ body {
     }
     .nav ul {
         left: 10%;
-        margin-top: 7%;
+        margin-top: 15%;
         margin-right: 0;
     }
     .nav ul li {
