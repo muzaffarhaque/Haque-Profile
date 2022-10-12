@@ -58,15 +58,18 @@ body {
 }
 
 .nav ul {
-    float: right;
+ position: absolute;
+ right: 15%;
+   display: inline;
     list-style: none;
-    margin-right: 5%;
+   
 }
 
 .nav ul li {
-    display: inline-block;
+
+    float: right;
     margin: 0 10px;
-    padding: 5px;
+    /* padding: 5px; */
     border: 2px solid transparent;
 }
 .nav ul li:hover {
