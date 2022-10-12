@@ -47,12 +47,12 @@ body {
 
 .nav h3 {
     display: inline;
-    margin-left: 20%;
+    margin-left: 10%;
     color: rgb(209, 250, 199);
     /* padding-top: 20px; */
     font-size: 1.6vw;
     font-family: 'Sofia';
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     /* border: 2px solid red; */
     border-bottom: 2px solid rgb(196, 207, 207);
 }
