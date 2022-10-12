@@ -697,7 +697,7 @@ body {
         /* border: 2px solid green; */
     }
     .hadder-strip-mob {
-        display: block;
+        display: inline;
         position: fixed;
         top: 0;
         left: 0;
