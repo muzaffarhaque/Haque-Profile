@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/New Order Regular.otf" />
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./javascript/slick-1.8.1/slick/slick.min.js"></script>
+
+    <title>Md Muzaffarul Haque</title>
+    <link rel="icon" href="./images/profileMuz.jpeg" />
+</head>
+
+<body>
+    <!-- HEADER SECTION START -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-frame d-flex align-items-center justify-content-between">
+                <h4 class="fx-32 sofia primary">Muzaffar</h4>
+                <input type="checkbox" name="so" class="d-none" id="so">
+
+                <ul class="side-nav">
+                    <li class="">
+
+                        <a class="fx-16 fw-500 text-decoration-none px-4 py-2" href="#">HOME</a>
+
+                    </li>
+                    <li class="">
+                        <a class="fx-16 fw-500 text-decoration-none px-4 py-2" href="#project">PROJECT</a>
+                    </li>
+                    <li class="">
+                        <a class="fx-16 fw-500 text-decoration-none px-4 py-2" href="#whatido">
+                            WHAT I DO</a>
+                    </li>
+                    <li class="">
+                        <a class="fx-16 fw-500 text-decoration-none px-4 py-2" href="#about">ABOUT ME</a>
+                    </li>
+                    <li class="">
+                        <a class="fx-16 fw-500 text-decoration-none px-4 py-2" href="#skills">SKILLS</a>
+                    </li>
+                    <li class="">
+                        <a class="fx-16 fw-500 text-decoration-none px-4 py-2" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+
+                <label for="so" class="icon-label mb-show">
+                    <i class="fa-solid fa-bars mb-show fx-32"></i>
+                </label>
+
+            </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION END -->
+
+    <!--* HOME HERO SECTION START -->
+    <section class="home-hero-section">
+        <div class="container h-100">
+            <div class="d-flex h-100 flex-wrap-reverse w-100">
+                <div class="w-51  d-flex align-items-center justify-content-center">
+                    <div class="short-intro">
+                        <h1 class="fs-64-32 black-dark position-relative">Hi,<br />I'm Muzaffar ...
+                            <span class="hi-emoji">👋</span>
+                        </h1>
+                        <h3 class="fs-20-16 black-md">
+                            and I am
+                            <span class="autotext primary"></span>
+                        </h3>
+                        <p class="fs-16-14 black-light fw-normal">
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; A passionate Full Stack Software Developer
+                            🚀 having a special interest in Frontend technologies and experience of building
+                            Web applications with JavaScript / Reactjs / Nodejs and some other cool
+                            libraries and frameworks.
+                        </p>
+                        <div class="d-flex pt-3 align-items-center flex-wrap justify-content-start gap-4">
+                            <button onclick="linkdin()" class="primary-btn mk-full">
+                                <i class="fa-brands fa-linkedin"></i>
+                                View on Linkdin
+                            </button>
+                            <button onclick="github()" class="primary-btn mk-full">
+                                <i class="fa-brands fa-github"></i>
+                                View on Git-Hub
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-51 pt-20-mb  d-flex align-items-center justify-content-center">
+                    <svg viewBox="0 0 200 200" class=" w-100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <pattern id="img1" x="0" y="0" width="1" height="1" viewBox="0 0 250 500"
+                                preserveAspectRatio="xMidYMid slice">
+                                <image width="250" height="500" class="object-fit-contain"
+                                    xlink:href="./images/MuzProfile.jpeg" />
+                            </pattern>
+                        </defs>
+                        <path fill="url('#img1')"
+                            d="M54.3,-12.2C64,12.3,61.2,46.3,43,59.5C24.9,72.8,-8.6,65.3,-33.3,47C-58.1,28.7,-74.3,-0.3,-67.3,-21C-60.3,-41.7,-30.1,-54,-3.9,-52.8C22.3,-51.5,44.5,-36.6,54.3,-12.2Z"
+                            transform="translate(100 100)" />
+                        />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--* HOME HERO SECTION END -->
+
+    <!-- *--- ABOUT ME SECTION START ---- -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="d-flex flex-wrap w-100">
+                <div class="w-51  d-flex align-items-center justify-content-center">
+                    <img src="/images/workplace.png" class="object-fit-contain about-me-image " alt="">
+                </div>
+                <div class="w-51 d-flex align-items-center">
+                    <div class="about-content">
+                        <h4 class="fs-32-24 black-md fw-500">About me 👦</h4>
+                        <p class="fs-16-14 fw-normal black-light">&nbsp;&nbsp; I am a Computer Science
+                            student who is pursuing graduation in a Computer Science and Engineering from
+                            Dr. Babasaheb Ambedkar Technological University Lonere. I am a highly skilled
+                            professional developer who loves to take on the challenges and then solve them.
+                        </p>
+                        <p class="fs-16-14 fw-normal black-light">&nbsp;&nbsp; I am a Front-End
+                            Developer With An Expertise in Building Responsive Website Web Applicationn
+                            Using HTML CSS JavaScript Bootstrap and Reactjs Reast-API . I am Looking to Work
+                            on a Job Profile Which Provides an Opportunity to Enhance My Technical Skills
+                            and Khowledge That Would be Helpful to My Career..
+                        </p>
+                        <a target="_blank" class="text-decoration-none"
+                            href="https://www.youtube.com/channel/UCQe5XlQNaRRW_Gngp4AhW_w/featured">
+                            <button class="primary-btn"><i class="fa-brands fa-youtube"></i> My Channel</button>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- *--- ABOUT ME SECTION END ---- -->
+
+    <!-- =============== WHAT I DO START ================= -->
+    <section class="ido-seciton" id="whatido">
+        <div class="container">
+            <h4 class="fs-32-24 black-md fw-500 w-100 text-center">What I Do 👨‍💻</h4>
+            <div class="d-flex flex-wrap pt-4 gap-4  justify-content-center gap-3">
+                <div
+                    class="swip-icon d-flex align-items-center justify-content-start gap-3 fx-14 fw-normal black-light">
+                    <div class="para-tick-right">
+                        ✔
+                    </div>
+                    Prepare variety of different designs, layouts and websites
+                </div>
+                <div
+                    class="swip-icon d-flex align-items-center justify-content-start gap-3 fx-14 fw-normal black-light">
+                    <div class="para-tick-right black-md black-md">
+                        ✔
+                    </div>
+                    Use Seo Optimization and other software tools to create to grow their business
+                </div>
+                <div
+                    class="swip-icon d-flex align-items-center justify-content-start gap-3 fx-14 fw-normal black-light">
+                    <div class="para-tick-right black-md">
+                        ✔
+                    </div>
+                    Convert graphic designs to usable web images using React JS
+                </div>
+                <div
+                    class="swip-icon d-flex align-items-center justify-content-start gap-3 fx-14 fw-normal black-light">
+                    <div class="para-tick-right black-md">
+                        ✔
+                    </div>
+                    Plann website development, converting mockups into usable web presence with
+                    HTML, JavaScript, AJAX and JSON coding
+                </div>
+                <div
+                    class="swip-icon d-flex align-items-center justify-content-start gap-3 fx-14 fw-normal black-light">
+                    <div class="para-tick-right black-md">
+                        ✔
+                    </div>
+                    Code websites using HTML, CSS, JavaScript and React languages
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== WHAT I DO END ================= -->
+    <!--  -->
+    <!--  -->
+    <!-- =============== SKILLED START ================= -->
+    <section class="slill-seciton" id="skills">
+        <div class="container">
+            <h4 class="fs-32-24 black-md fw-500 w-100 text-center">Skills 🔥</h4>
+            <div class="d-flex flex-wrap pt-4 gap-4  justify-content-center gap-3">
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="html" cy="70px" cx="70px" r="70px"></circle>
+                        </svg>
+                        <img width="50px" title="HTML" height="50px" src="images/skill-icon/html.svg" alt="html">
+
+                    </div>
+                </div>
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="css" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="CSS" height="50px" src="images/skill-icon/css.svg" alt="html">
+                    </div>
+                </div>
+
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="scss" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="SCSS" height="50px" src="images/skill-icon/scss.svg" alt="html">
+                    </div>
+                </div>
+
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="js" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="JavaScript" height="50px" src="images/skill-icon/js.svg" alt="html">
+                    </div>
+                </div>
+
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="react" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="React Js" height="50px" src="images/skill-icon/react.svg" alt="html">
+                    </div>
+                </div>
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="react" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="React Js" height="50px" src="images/skill-icon/nextjs.svg" alt="html">
+                    </div>
+                </div>
+
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="figma" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="Figma" height="50px" src="images/skill-icon/figma.svg" alt="html">
+                    </div>
+                </div>
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="git" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="Git" height="50px" src="images/skill-icon/git.svg" alt="html">
+                    </div>
+                </div>
+
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="redux" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="Redux" height="50px" src="images/skill-icon/redux.svg" alt="html">
+                    </div>
+                </div>
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="opti" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="Searching Problem" height="50px"
+                            src="images/skill-icon/serch_engin_optimization.svg" alt="html">
+                    </div>
+                </div>
+
+                <div class="box-skils">
+                    <div class="skill-text-container">
+                        <svg class="curdular-range">
+                            <circle id="circle1" cy="70px" cx="70px" r="70px"></circle>
+                            <circle id="circle" class="api" cy="70px" cx="70px" r="70px"></circle>
+
+                        </svg>
+                        <img width="50px" title="API" height="50px" src="images/skill-icon/api.svg" alt="html">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== SKILLED START ================= -->
+    <!--  -->
+    <!-- ============== PROJECT SLIDER STAR================== -->
+    <section class="project-section" id="project">
+        <div class="container">
+            <h4 class="fs-32-24 pb-5 black-md fw-500 w-100 text-center">Projects 💻</h4>
+            <div class="d-flex justify-content-center">
+                <div class="your-class py-3">
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/hospital.jpg" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">book
+                                    appointment</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank" href="https://muzaffarhaque.github.io/Lab1/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/onestopsolution.jpg" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">One
+                                    Stop Solution</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank" href="https://muzaffarhaque.github.io/Onestopsolution1/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/completeWebsite.png" class="object-fit-contain" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center  my-2">
+                                    Responsieve Template </h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+
+                                </p>
+                                <a target="_blank" href="https://muzaffarhaque.github.io/responsiveTemplate/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/dashboard.jpg" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">
+                                    Dashboard</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank" href="https://muzaffarul.github.io/dash/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/desk-any-screen.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">
+                                    Responsive Template</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+
+                                </p>
+                                <a target="_blank" href="https://muzaffarhaque.github.io/responsiveTemplate2/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/food-sea.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">Ui
+                                    Web App</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript
+
+                                </p>
+                                <a target="_blank"
+                                    href="https://x4thaqk5stdj75ljk1vh3q.on.drv.tw/food/Foodsea%20(1).html">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/homePageTikitbook.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">
+                                    booked ticket</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank"
+                                    href="https://drive.google.com/file/d/1FJV7BToED__F_8z5mjQY5uKQrIkhVU8t/view">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/image1.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">
+                                    Ecommerce Add to cart page</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank" href="https://muzaffarhaque.github.io/Ecommerce/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/Tikit-booking.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">
+                                    booked ticket</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank"
+                                    href="https://drive.google.com/file/d/1FJV7BToED__F_8z5mjQY5uKQrIkhVU8t/view">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/project/music.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">
+                                    Music web App</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank"
+                                    href="https://x4thaqk5stdj75ljk1vh3q.on.drv.tw/Music%20player/Music.html">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3">
+                        <div class="project-card">
+                            <img src="/images/profilo/bag-web.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">bag
+                                    shop blog</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+
+                                </p>
+                                <a target="_blank" href="https://sothelast.github.io/Responsive-bag-websidt/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3 ">
+                        <div class="project-card">
+                            <img src="/images/project/carservicestation.jpg" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">Car
+                                    service Billing</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank" href="https://muzaffarhaque.github.io/CarServiceStation/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3 ">
+                        <div class="project-card">
+                            <img src="/images/project/To-do.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">To
+                                    Do web App</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank" href="https://muzaffarhaque.github.io/OIBSIP_L2Task3-ToDoWebApp/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3 ">
+                        <div class="project-card">
+                            <img src="/images/project/movie_tikitbook.png" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">
+                                    Movie Tikit-book Clone</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+                                    Reactjs
+                                </p>
+                                <a target="_blank"
+                                    href="https://drive.google.com/file/d/1glc-QnVkJrV643-1qJ5H3oDD6e1xb3LE/view">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-3 py-3 ">
+                        <div class="project-card">
+                            <img src="/images/project/LGM.jpg" alt="image">
+                            <div class="px-1 pb-1">
+                                <h5 class="fs-20-16 fw-600 black-md text-truncate overflow-hidden text-center my-2">
+                                    Static Web page</h5>
+                                <p class="fs-16-14 fw-normal black-light"></p>
+                                <p class="fs-16-14 fw-normal black-light pb-2">
+                                    <span class="fw-normal">Technologies Used :-</span><br /> Html, CSS, JavaScript,
+
+                                </p>
+                                <a target="_blank" href="https://muzaffarhaque.github.io/LGMVIP-WebDev/">
+                                    <button class="primary-btn fx-15 ">Deployed</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== PROJECT SLIDER END================== -->
+    <!--  -->
+    <!--  -->
+    <!--=================== My tec work  =====================-->
+    <section class="work-on-ttec">
+        <h4 class="fs-32-24 pb-5 black-md fw-500 w-100 text-center">Technologies Used</h4>
+        <div class="tech-work flex-wrap">
+            <img src="./images/skill-icon/html.svg" alt="HTML">
+            <img src="./images/skill-icon/css.svg" alt="CSS">
+            <img src="./images/skill-icon/scss.svg" alt="SCSS">
+            <img src="./images/skill-icon/js.svg" alt="Java-script">
+            <img src="./images/skill-icon/figma.svg" alt="Figma">
+            <img src="./images/skill-icon/nextjs.svg" alt="Next">
+            <img src="./images/skill-icon/react.svg" alt="React js">
+            <img src="./images/skill-icon/redux_original_logo_icon_146365.png" alt="Redux">
+            <img src="./images/skill-icon/api.svg" alt="API">
+            <img src="./images/skill-icon/git.svg" alt="GIt">
+            <img src="./images/skill-icon/aboutme.png" alt="">
+            <img src="./images/skill-icon/pythn.svg" alt="Python">
+
+        </div>
+    </section>
+    <!--======================= My tec work  End =============================-->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+
+    <!-- my profilo section -->
+
+    <section class="profilo-section">
+        <div class="container">
+            <div class="whatido-center">
+                <h4 class="fs-32-24 pb-5 black-md fw-500 w-100 text-center"> Portfolio 👨‍💻</h4>
+            </div>
+            <div class="profilo-images-contianer d-flex justify-content-center gap-3">
+                <div class="profilo-box"><img src="./images/profilo/restront.png" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/robot.png" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/project/To-do.png" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/project/hospital.jpg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/project/homePageTikitbook.png" class=" object-fit-contain"
+                        alt="profile images"></div>
+                <div class="profilo-box"><img src="images/project/ResponsieveWeb.png" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/project/completeWebsite.png" class=" object-fit-contain"
+                        alt="profile images"></div>
+                <div class="profilo-box"><img src="images/project/Tikit-booking.png" class=" object-fit-contain"
+                        alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/wify.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/slider.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/cv.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/brightner.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/bubble.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/e=product (1).jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/setting-option.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/signal.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/tems-mic.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/toggle.jpeg" alt="profile images"></div>
+                <div class="profilo-box"><img src="images/profilo/footer.jpeg" alt="profile images"></div>
+            </div>
+        </div>
+    </section>
+    <!-- contact page start -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!-- *--- CONTACT  ME SECTION START ---- -->
+
+    <section class="contact-page " id="contact">
+        <div class="container">
+            <div class="whatido-center pb-3">
+                <h4 class="fs-32-24  black-md fw-500 w-100 text-center mb-3">Contact me 📱</h4>
+            </div>
+            <div class="contact-me-conatiner  mb-wrap d-flex gap-3">
+                <div class="contact-box w-51">
+                    <div class="fs-20-16 black-md fw-600 text">Get in Touch</div>
+                    <p class="fs-16-14 fw-normal black-light text-pata"> &nbsp;&nbsp;I'am passionate in designing and
+                        developing website's i have done many
+                        project,if you want see go to my Channel <a class="channel-link"
+                            href="https://www.youtube.com/channel/UCQe5XlQNaRRW_Gngp4AhW_w/featured">SoThe.Tech</a>. If
+                        you need website services, I'm the person you should reach out to. Contact me for all your
+                        website needs.</p>
+                    <div class="icons-all-inputs">
+                        <div class="row1 d-flex align-items-center gap-2">
+                            <i class="fas fa-user primary"></i>
+                            <div class="fs-16-14 fw-normal black-light d-flex  info">
+                                <span class="head">Name</span><br>
+                                <span class="sub-title text-nowrap text-truncate">:- &nbsp;Md Muzaffarul Haque</span>
+                            </div>
+                        </div>
+                        <div class=" d-flex align-items-center gap-2 row1">
+
+                            <i class="fas fa-map-marker-alt primary"></i>
+                            <div class="fs-16-14 fw-normal black-light d-flex   info">
+                                <span class="head">Address</span><br>
+                                <span class="sub-title text-nowrap text-truncate">:- &nbsp;Maharahtra, India</span>
+                            </div>
+                        </div>
+                        <div class="row1 d-flex align-items-center gap-2">
+
+                            <i class="fas fa-envelope primary"></i>
+                            <div class="fs-16-14 fw-normal black-light d-flex  info">
+                                <span class="head">Email</span><br>
+                                <span class="sub-title text-nowrap text-truncate">:-
+                                    &nbsp;muzaffarhaque777@gmai.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-box w-51">
+                    <div class="fs-20-16 fw-normal black-md fw-400 text-me">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name d-flex gap-3">
+                                <input class="input-box fs-16-14 black-md w-51" type="text" placeholder="Name" required>
+
+
+                                <input class="input-box fs-16-14 black-md w-51" type="email" placeholder="Email"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <input class="input-box fs-16-14 black-md w-100" type="text" placeholder="Subject" required>
+                        </div>
+
+                        <textarea class="input-box fs-16-14 black-md input-textarea w-100" cols="30" rows="10"
+                            placeholder="Message.." required></textarea>
+
+
+                        <button class="primary-btn mt-3" onclick="showMessage()" type="submit">Send message</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- *--- CONTACT ME SECTION END ---- -->
+
+    <!--* FOOTER START  -->
+    <footer class="footer fs-16-14 text-white text-center py-3 bg-dark">
+        <span>Created By <a href="#" class="footer-me">Muzaffar</a> | <span class="far fa-copyright"></span> 2023 All
+            rights
+            reserved.</span>
+    </footer>
+    <!--* FOOTER END  -->
+    <script src="./javascript/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var options = {
+            strings: [
+                "UI Desiner.",
+                "Team Person",
+                'React Developer.',
+                'Dedicated Programmer.',
+                "Frontend Enthusiast",
+                "Teame Person"
+            ],
+            typeSpeed: 150,
+            backSpeed: 100,
+            loop: Infinity
+        };
+        var typed = new Typed('.autotext', options);
+    </script>
+    <script>
+        $(document)
+            .ready(function () {
+                $('.your-class').slick({
+                    infinite: true,
+                    // slidesToShow: 1,
+                    variableWidth: true,
+                    // slidesToScroll: 1,
+                    dots: true,
+                    // speed: 1000,
+                    centerMode: true,
+                    arrows: true,
+                    autoplay: true,
+                    // centerPadding: '60px',
+                    // autoplaySpeed: 1000,
+                    prevArrow: '<i class="fa-solid fa-circle-chevron-left" id="left-icon"></i>',
+                    nextArrow: '<i class="fa-solid fa-circle-chevron-right" id="right-icon"></i>',
+                    responsive: [
+                        {
+                            breakpoint: 1324,
+                            settings: {
+                                centerMode: true,
+                            }
+                        },]
+                });
+            });
+    </script>
+
+</body>
+
+</html>
